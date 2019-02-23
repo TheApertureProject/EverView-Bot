@@ -1,0 +1,7 @@
+{
+    "prefix" : "!",
+    "owner_id" : "437026130315444244",
+    "mainserv_id" : "546381246113120276"
+    "version": ["1.0.0a-EverView_Build"],
+    "modules": ["general", "moderator", "utilities", "fun", "dblupdater", "help", "master", "listener", "partnerships"]
+}
