@@ -9,13 +9,13 @@ Sous un système d'exploitation tel Windows, Linux, Android ou MacOS, exécuter 
 Consultez la documentation d'Heroku pour en savoir plus sur le déploiement d'applications sur ce réseau.
 les logiciels nécessaires au fonctionnement du programme sont :
 
-    - Python (version la plus récente, min. 3.6)
+   - Python (version la plus récente, min. 3.6)
     
-    - Librairie `discord.py` intégrée à Python
+   - Librairie `discord.py` intégrée à Python
     
-    - Librairie `googletrans` intégrée à Python
+   - Librairie `googletrans` intégrée à Python
     
-    *Note : l'utilisation du pack de commandes bash `git cli` est recommandé pour l'intégration des modules ci-dessus dans Python.*
+*Note : l'utilisation du pack de commandes bash `git cli` est recommandé pour l'intégration des modules ci-dessus dans Python.*
 
 # Architecture
 
