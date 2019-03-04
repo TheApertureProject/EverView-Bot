@@ -3,7 +3,7 @@ from discord.ext import commands
 import sys
 import json
 
-with open('./config', 'r') as cjson:
+with open('./config.json', 'r') as cjson:
     config = json.load(cjson)
 
 MASTER = config("owner_id")
