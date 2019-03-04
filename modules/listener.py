@@ -21,7 +21,7 @@ class Listeners(Cog):
     @Cog.listener()
     async def on_member_join(self, member):
         if member.guild.id == SERVERID:
-            e=discord.Embed(description="Bienvenue sur EverView !', color=0xdb90f4)
+            e=discord.Embed(description='Bienvenue sur EverView !', color=0xdb90f4)
             e.set_thumbnail(url='https://cdn.discordapp.com/attachments/476653267036930049/528247247574401025/WindowKamuis.gif')
             e.set_image(url='https://cdn.discordapp.com/attachments/476653267036930049/528247286598467614/train-girl.jpg')
             await member.send(embed=e)
