@@ -12,7 +12,7 @@ PREFIX = config["prefix"]
 SERVERID = config["mainserv_id"]
 WELCHAN = config["welcome_channel"]
 
-class Listeners:
+class Listeners(Cog):
 	
     def __init__(self, bot):
         self.bot = bot
