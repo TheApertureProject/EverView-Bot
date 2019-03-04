@@ -8,7 +8,7 @@ with open('./config', 'r') as cjson:
 
 MASTER = config("owner_id")
 
-class Master(Cog):
+class Master(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
