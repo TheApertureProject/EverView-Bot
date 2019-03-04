@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-class Moderator(Cog):
+class Moderator(commands.Cog):
     
     conf = {}
 	
