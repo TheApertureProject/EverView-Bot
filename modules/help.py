@@ -47,7 +47,7 @@ En fonctionnement sous  [discord.py v1.0.0a](https://discordpy.readthedocs.io/en
         e.add_field(name='`moderator`', value='Commandes de modération.')
         e.add_field(name='`fun`', value='Commandes de jeu & divertissement.')
         e.set_footer(text=f'Entrez {PREFIX}help <categorie> pour afficher une liste de commandes spécifiques.')
-        await ctx.send(embed=eà
+        await ctx.send(embed=e)
 
     @help.command(name="info")
     async def help_info(self, ctx):
