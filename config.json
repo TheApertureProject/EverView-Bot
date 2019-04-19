@@ -5,8 +5,8 @@
     "mainserv_id" : "546381246113120276",
     "version" : ["1.0.0a-EverView_Build"],
     "modules" : ["general", "moderator", "utilities", "fun", "help", "master", "listener"]
-    "l-msgs" : "568844347844329504"
-    "l-arch" : "549709164973129744"
-    "l-mods" : "549709105359618048"
-    "l-errs" : "568844302298644502"
+    "l-msgs" : "568844347844329504",
+    "l-arch" : "549709164973129744",
+    "l-mods" : "549709105359618048",
+    "l-errs" : "568844302298644502",
 }
