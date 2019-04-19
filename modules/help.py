@@ -25,14 +25,14 @@ class Help(commands.Cog):
 
     @commands.command()
     async def info(self, ctx):
-        a = """Created by Poulpy#9355
-[Page Discord Bot List de la version publique](https://discordbots.org/bot/467332623677521940) - Upvote Kanna and support us !
+        a = """Entièrement programmé par Poulpy#9355
+[Page Discord Bot List de la version publique](https://discordbots.org/bot/467332623677521940)
 Hébergé gratuitement sur [Heroku](https://www.heroku.com/)
 En fonctionnement sous  [discord.py v1.0.0a](https://discordpy.readthedocs.io/en/latest/api.html)
 [Lien d'invite de la version publique](https://discordapp.com/oauth2/authorize?client_id=467332623677521940&scope=bot&permissions=2146958591)
 [Serveur de support de la version publique](https://discord.gg/PTT9UpZ)"""
         e = discord.Embed(description="Everview Bot", title='En savoir plus', color=0xF4A2FF)
-        e.set_thumbnail(url="random_url")
+        e.set_thumbnail(url="https://cdn.discordapp.com/attachments/568845812767916042/568845905650909208/JPEG_20190407_001724.png")
         e.add_field(name='Information', value=a)
         e.set_footer(text=VERSION)
         e.set_author(name=self.bot.user.name, icon_url=self.bot.user.avatar_url)
