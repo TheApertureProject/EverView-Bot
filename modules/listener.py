@@ -50,7 +50,7 @@ class Listeners(Cog):
             await ctx.send('⚠ Cette commande est actuellement désactivée pour cause de maintenance.')
         else:
             embedbasic = discord.Embed(color=discord.Color.red(), description='⚠ Une erreur est survenue lors de l\'éxecution de cette commande. Un rapport d\'erreur a été envoyé au serveur de maintenance EverView.')
-            errorembed = discord.Embed(color=discord.Color.red(), title=f'Error caused by {ctx.author} ({ctx.author.id})', description=f'```py\n{error}\n```')
+            errorembed = discord.Embed(color=discord.Color.red(), title=f'Erreur provoquée par {ctx.author} ({ctx.author.id})', description=f'```py\n{error}\n```')
             errorembed.add_field(name='Serveur', value=f'**{ctx.guild.name}** ({ctx.guild.id})', inline=True)
             errorembed.add_field(name='Commande', value=f'**{ctx.command.name}**')
             channel = ctx.bot.get_channel(568844302298644502)
