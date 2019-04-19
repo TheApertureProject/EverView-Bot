@@ -3,10 +3,13 @@ from discord.ext import commands
 import sys
 import json
 
-with open('./config.json', 'r') as cjson:
-    config = json.load(cjson)
+try:
+    with open('./config.json', 'r') as cjson:
+        config = json.load(cjson)
 
-MASTER = config("owner_id")
+    MASTER = config("owner_id")
+except:
+    pass
 
 class Master(commands.Cog):
 
