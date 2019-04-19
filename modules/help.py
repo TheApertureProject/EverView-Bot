@@ -8,7 +8,6 @@ with open('./config.json', 'r') as cjson:
 
 VERSION = config["version"]
 PREFIX = config["prefix"]
-prefiximg = ':prefiximg:505768310227599371'
 
 bot = commands.Bot(command_prefix=PREFIX)
 
