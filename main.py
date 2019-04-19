@@ -39,6 +39,7 @@ async def on_connect():
 
 @bot.event
 async def on_ready():
+    loaded = 0
     bot.remove_command('help')
     for module in modules:
         try:
@@ -47,6 +48,6 @@ async def on_ready():
         except Exception:
             logging.exception('Failed to load %s', module)
     print('Logged in.')
-    bot.loop.create_task(status())
+bot.loop.create_task(status())
 
 bot.run(TOKEN)
