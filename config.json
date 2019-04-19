@@ -1,6 +1,7 @@
 {
     "prefix" : "!",
     "owner_id" : "437026130315444244",
+    "welcome_channel" : "517351666513870848",
     "mainserv_id" : "546381246113120276",
     "version": ["1.0.0a-EverView_Build"],
     "modules": ["general", "moderator", "utilities", "fun", "help", "master", "listener"]
