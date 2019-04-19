@@ -53,7 +53,7 @@ class Listeners(Cog):
             errorembed = discord.Embed(color=discord.Color.red(), title=f'Error caused by {ctx.author} ({ctx.author.id})', description=f'```py\n{error}\n```')
             errorembed.add_field(name='Serveur', value=f'**{ctx.guild.name}** ({ctx.guild.id})', inline=True)
             errorembed.add_field(name='Commande', value=f'**{ctx.command.name}**')
-            channel = ctx.bot.get_channel(462876207097053195)
+            channel = ctx.bot.get_channel(568844302298644502)
             await ctx.send(embed=embedbasic)
             await channel.send(embed=errorembed)
 
